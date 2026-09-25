@@ -5,6 +5,7 @@ describe('GET /', () => {
   it('should return Hello TeamCity message', (done) => {
     request(app)
       .get('/')
-      .expect(200, 'Hello TeamCity! Connection Successful.', done);
+      // Inga ulla text-ai mattum namma app.js-la kudutha puthiya text-ku etrapadi mathidunga
+      .expect(200, 'Hello TeamCity! Automation Works Fine.', done); 
   });
 });
