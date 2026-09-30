@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-
+ 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello TeamCity! Automation Works Fine.');
+  res.status(200).send('Hello TeamCity! Connection Successful.');
 });
-
+ 
 module.exports = app;
